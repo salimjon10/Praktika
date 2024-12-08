@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-color: #444;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+
+
+.navigation {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navigation button {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigation button:hover {
+    background-color: #777;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+#mapContainer {
+    width: 800px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#content {
+    padding: 20px;
+    background: #444;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 800px;
+    max-width: 90%;
+    text-align: left;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container1 {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    justify-content: center; /* Центрируем блоки */
+    gap: 20px; /* Расстояние между изображениями */
+}
+.image-block {
+    border: 1px solid #ccc; /* Граница вокруг блока с изображением */
+    padding: 10px; /* Отступы внутри блока */
+    text-align: center; /* Выравнивание текста по центру */
+}
+img {
+    max-width: 100%; /* Ширина изображения не больше ширины блока */
+    height: auto; /* Высота пропорциональна ширине */
+}
+
+.container2 {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    justify-content: center; /* Центрируем блоки */
+    gap: 20px; /* Расстояние между изображениями */
+}
+.image-block {
+    border: 1px solid #ccc; /* Граница вокруг блока с изображением */
+    padding: 10px; /* Отступы внутри блока */
+    text-align: center; /* Выравнивание текста по центру */
+}
+img {
+    max-width: 100%; /* Ширина изображения не больше ширины блока */
+    height: auto; /* Высота пропорциональна ширине */
+}

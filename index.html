@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фруктайм</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Фруктайм</h1>
+      
+        </header>
+        <nav class="navigation">
+            <button id="newsBtn">Новости и акции </button>
+            <button id="vegetablesBtn">Овощи</button>
+            <button id="fruitsBtn">Фрукты</button>
+            <button id="infoBtn">Доп.информация</button>
+        </nav>
+        <main>
+            <div id="mapContainer">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.9351921169155!2d86.14401821579264!3d55.35361737936906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42d80927fdc4d175%3A0x4faf6cf2ccfebf8a!2z0KTRgNGD0LrRgtCw0LnQvA!5e0!3m2!1sru!2sru!4v1701926813682!5m2!1sru!2sru" 
+                    width="800" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <div id="content" class="hidden"></div>
+        </main>
+        <footer>
+            <p>Кемерово, 2024 © КемГУ</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
