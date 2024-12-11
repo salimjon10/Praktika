@@ -25,7 +25,21 @@ header h1 {
     font-size: 2em;
 }
 
+.h2{
+    text-align: center;
+}
 
+.backBtn {
+    padding: 10px 20px; /* Отступы внутри кнопки */
+            font-size: 16px; /* Размер шрифта */
+            color: white; /* Цвет текста */
+            background-color: #007BFF; /* Цвет фона кнопки */
+            border: none; /* Убираем рамку */
+            border-radius: 5px; /* Скругление углов */
+            cursor: pointer; /* Курсор при наведении */
+            
+            
+}
 
 
 .navigation {
@@ -121,4 +135,29 @@ img {
 img {
     max-width: 100%; /* Ширина изображения не больше ширины блока */
     height: auto; /* Высота пропорциональна ширине */
+}
+
+.container3 {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    justify-content: center; /* Центрируем блоки */
+    gap: 20px; /* Расстояние между изображениями */
+}
+.image-block {
+    border: 1px solid #ccc; /* Граница вокруг блока с изображением */
+    padding: 10px; /* Отступы внутри блока */
+    text-align: center; /* Выравнивание текста по центру */
+}
+img {
+    max-width: 100%; /* Ширина изображения не больше ширины блока */
+    height: auto; /* Высота пропорциональна ширине */
+}
+
+.button {
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    color: white; /* Цвет текста */
+    background-color: #007BFF; /* Цвет фона кнопки */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer; /* Курсор при наведении */
 }

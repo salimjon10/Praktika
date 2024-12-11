@@ -24,8 +24,8 @@ newsBtn.addEventListener('click', () => {
     showContent(`
     <div class="container2">
         <div class="citrus">
- <img src="images/Без названия (4).jpg" alt="Пример изображения" width="300" height="200">
-        <p>Не пропустите акцию: скидка 20% на все <br> цитрусовые  до конца недели!</p>
+ <img src="images/Без названия (4).jpg" alt="Пример изображения" width="400" height="400">
+        <p>Не пропустите акцию: скидка 20% на <br> все цитрусовые  до конца недели!</p>
          </div>
 
          <div class="aksiya">
@@ -34,7 +34,7 @@ newsBtn.addEventListener('click', () => {
          </div>
 
  <div class="otkritie">
- <img src="images/Без названия (5).jpg" alt="Пример изображения" width="300" height="200">
+ <img src="images/images.jpg" alt="Пример изображения" width="300" height="200">
         <p>Cкоро открытие нашего 2го магазина ураа!</p>
          </div>
 </div>
@@ -49,20 +49,155 @@ vegetablesBtn.addEventListener('click', () => {
        <div class="container1">
     <div class="image-block">
         <img src="images/kartoshka.jpg" alt="Изображение 1">
-        <p>Картошка    <button>+</button>  </p>
-         <p> 51p</p>
+        <p>Картошка </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
     </div>
     <div class="image-block">
         <img src="images/kapusta.jpg" alt="Изображение 2">
-        <p>Описание изображения 2</p>
+       <p>Капуста</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
     </div>
     <div class="image-block">
         <img src="images/ogures.jpg" alt="Изображение 2">
-        <p>Описание изображения 2</p>
+       <p>Огурец </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
     </div>
     <div class="image-block">
         <img src="images/peres.jpg" alt="Изображение 2">
-        <p>Описание изображения 2</p>
+          <p>Перец </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+</div>
+ 
+<div class="container3">
+    <div class="image-block">
+        <img src="images/chesna.jpg" alt="Изображение 1">
+         <p>Чеснок </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/luk.jpg" alt="Изображение 2">
+          <p>Лук </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/помидоры.jpg" alt="Изображение 2">
+        <p>Помидоры </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+     <div class="image-block">
+        <img src="images/морковь.jpg" alt="Изображение 2">
+         <p>Морковь мытая </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+</div>
+
+<div class="container3">
+    <div class="image-block">
+        <img src="images/zelperes.jpg" alt="Изображение 1">
+        <p>Перец зеленый </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/krluk.jpg" alt="Изображение 2">
+         <p>Лук красный </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/tkva.jpg" alt="Изображение 2">
+        <p>Тыква </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+     <div class="image-block">
+        <img src="images/baklazhan.jpg" alt="Изображение 2">
+          <p>Баклажаны </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+</div>
+
+<div class="container3">
+    <div class="image-block">
+        <img src="images/rediska.jpg" alt="Изображение 1">
+        <p>Редиска </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/kabachki.jpg" alt="Изображение 2">
+         <p>Кабачки </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/osperes.jpg" alt="Изображение 2">
+         <p>Острый перец </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+     <div class="image-block">
+        <img src="images/pomcheri.jpg" alt="Изображение 2">
+         <p>Помидоры черри</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+</div>
+
+<div class="container3">
+    <div class="image-block">
+        <img src="images/kukuruza.jpg" alt="Изображение 1">
+        <p>Кукуруза </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/nemarkovka.jpg" alt="Изображение 2">
+         <p>Морковь немытая </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/svekla.jpg" alt="Изображение 2">
+         <p>Свекла</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
+    </div>
+     <div class="image-block">
+        <img src="images/kitkapusta.jpg" alt="Изображение 2">
+         <p>Китайская капуста </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>
+         <button>в корзину</button>
     </div>
 </div>
         <button class="backBtn" onclick="showMap()">На главную</button>
@@ -71,13 +206,160 @@ vegetablesBtn.addEventListener('click', () => {
 
 fruitsBtn.addEventListener('click', () => {
     showContent(`
-        <h2>Фрукты</h2>
-        <ul>
-            <li>Яблоки</li>
-            <li>Бананы</li>
-            <li>Апельсины</li>
-            <li>Груши</li>
-        </ul>
+        <div class="container1">
+    <div class="image-block">
+        <img src="images/banan.jpg" alt="Изображение 1">
+       <p>Бананы </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/ananas.jpg" alt="Изображение 2">
+      <p>Ананас </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/granat.jpg" alt="Изображение 2">
+      <p>Гранат </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/arbuz.jpg" alt="Изображение 2">
+         <p>Арбуз </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+</div>
+ 
+<div class="container2">
+    <div class="image-block">
+        <img src="images/klubnika.jpg" alt="Изображение 1">
+        <p>Клубника </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/vinograd.jpg" alt="Изображение 2">
+        <p>Виноград зеленый </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/mango.jpg" alt="Изображение 2">
+        <p>Манго </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+     <div class="image-block">
+        <img src="images/vishnya.jpg" alt="Изображение 2">
+         <p>Вишня </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+</div>
+
+<div class="container3">
+    <div class="image-block">
+        <img src="images/yabloki.jpg" alt="Изображение 1">
+        <p>Яблоко </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/grusha.jpg" alt="Изображение 2">
+         <p>Груша </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/mandarin.jpg" alt="Изображение 2">
+       <p>Мандарин </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+     <div class="image-block">
+        <img src="images/persik.jpg" alt="Изображение 2">
+         <p>Персик</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+</div>
+
+ <div class="container1">
+    <div class="image-block">
+        <img src="images/dnya.jpg" alt="Изображение 1">
+       <p>Дыня</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/kivi.jpg" alt="Изображение 2">
+      <p>Киви </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/sliva.jpg" alt="Изображение 2">
+     <p>Слива</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/laym.jpg" alt="Изображение 2">
+        <p>Лайм</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="image-block">
+        <img src="images/zelyabloko.jpg" alt="Изображение 1">
+        <p>Яблоко зеленое </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/krvinograd.jpg" alt="Изображение 2">
+       <p>Красный виноград </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+    <div class="image-block">
+        <img src="images/limon.jpg" alt="Изображение 2">
+        <p>Лимон </p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+     <div class="image-block">
+        <img src="images/malina.jpg" alt="Изображение 2">
+         <p>Малина</p>
+        <p>цена за 1кг </p>
+         <p>38р</p>  
+         <button>в корзину</button>
+    </div>
+</div>
         <button class="backBtn" onclick="showMap()">На главную</button>
     `);
 });
@@ -85,10 +367,11 @@ fruitsBtn.addEventListener('click', () => {
 infoBtn.addEventListener('click', () => {
     showContent(`
         <h2>Контакты и график работы</h2>
+  <img src="images/фруктайм.png" alt="">
         <p>Адрес: г. Кемерово, пр.Московский, д. 11</p>
-        <p>Телефон: +7 (123) 456-78-90</p>
+        <p>Телефон: +7 (913) 297-32-34</p>
         <p>Почта: fruktaym11@mail.ru</p>
-        <p>График работы: Пн-Пт 09:00 - 20:00, Сб-Вс 10:00 - 18:00</p>
+        <p>График работы: Ежедневно с 09:00 - 21:00</p>
         <button class="backBtn" onclick="showMap()">На главную</button>
     `);
 });
