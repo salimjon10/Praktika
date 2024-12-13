@@ -33,7 +33,7 @@ header h1 {
     padding: 10px 20px; /* Отступы внутри кнопки */
             font-size: 16px; /* Размер шрифта */
             color: white; /* Цвет текста */
-            background-color: #007BFF; /* Цвет фона кнопки */
+            background-color: #e3e635ec; /* Цвет фона кнопки */
             border: none; /* Убираем рамку */
             border-radius: 5px; /* Скругление углов */
             cursor: pointer; /* Курсор при наведении */
@@ -155,9 +155,9 @@ img {
 .button {
     padding: 10px 20px; /* Отступы внутри кнопки */
     font-size: 16px; /* Размер шрифта */
-    color: white; /* Цвет текста */
+    background-color: #555; /* Цвет текста */
     background-color: #007BFF; /* Цвет фона кнопки */
     border: none; /* Убираем рамку */
-    border-radius: 5px; /* Скругление углов */
+    border-radius: 105px; /* Скругление углов */
     cursor: pointer; /* Курсор при наведении */
 }
