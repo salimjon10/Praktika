@@ -114,12 +114,14 @@ footer p {
 }
 .image-block {
     border: 1px solid #ccc; /* Граница вокруг блока с изображением */
-    padding: 10px; /* Отступы внутри блока */
+    padding: 5px; /* Отступы внутри блока */
     text-align: center; /* Выравнивание текста по центру */
+    overflow: hidden;
 }
 img {
     max-width: 100%; /* Ширина изображения не больше ширины блока */
     height: auto; /* Высота пропорциональна ширине */
+    object-fit: cover; 
 }
 
 .container2 {
@@ -129,12 +131,14 @@ img {
 }
 .image-block {
     border: 1px solid #ccc; /* Граница вокруг блока с изображением */
-    padding: 10px; /* Отступы внутри блока */
+    padding: 5px; /* Отступы внутри блока */
     text-align: center; /* Выравнивание текста по центру */
+    overflow: hidden;
 }
 img {
     max-width: 100%; /* Ширина изображения не больше ширины блока */
     height: auto; /* Высота пропорциональна ширине */
+    object-fit: cover; 
 }
 
 .container3 {
@@ -144,12 +148,13 @@ img {
 }
 .image-block {
     border: 1px solid #ccc; /* Граница вокруг блока с изображением */
-    padding: 10px; /* Отступы внутри блока */
+    padding: 5px; /* Отступы внутри блока */
     text-align: center; /* Выравнивание текста по центру */
 }
 img {
     max-width: 100%; /* Ширина изображения не больше ширины блока */
     height: auto; /* Высота пропорциональна ширине */
+    object-fit: cover; 
 }
 
 .button {
@@ -198,5 +203,32 @@ button {
     border-radius: 5px;
 }
 .empty {
+    text-align: center;
+}
+
+
+ /* Кнопка корзины в виде круга */
+.cart-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px #444(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+h4 {
+    font-size: 16px;
+  line-height: 25px;
+}
+
+h2 {
     text-align: center;
 }

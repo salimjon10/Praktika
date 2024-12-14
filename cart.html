@@ -7,111 +7,101 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #333;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
             text-align: center;
-            margin-top: 20px;
+            color: #ddd;
+            background-color: #444;
         }
-        .cart-container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: #444;
-            padding: 20px;
-            border-radius: 10px;
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
         }
-        ul {
-            list-style: none;
-            padding: 0;
+
+        table, th, td {
+            border: 1px solid #ddd;
         }
-        li {
-            display: flex;
-            justify-content: space-between;
-            margin: 10px 0;
+
+        th, td {
+            padding: 10px;
         }
+
         button {
             background-color: #ff6600;
             color: white;
             border: none;
-            padding: 10px 20px;
-            margin-left: 80px;
+            padding: 10px;
             cursor: pointer;
             border-radius: 5px;
-        
-
-        }
-        .empty {
-            text-align: center;
         }
 
+        button:hover {
+            background-color: #e05500;
+        }
 
+        .clear-btn {
+            background-color: #dc3545;
+        }
     </style>
 </head>
 <body>
     <h1>Ваша корзина</h1>
-    <div class="cart-container">
-        <ul id="cart-items"></ul>
-        <p id="cart-total"></p>
-        <button onclick="clearCart()">Очистить корзину</button>
-        <button onclick="goBack()">Вернуться к покупкам</button>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Товар</th>
+                <th>Цена</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+    </table>
+    <p><strong>Общая сумма: <span id="total-price">0</span>₽</strong></p>
+    <button class="clear-btn" onclick="clearCart()">Очистить корзину</button>
+    <a href="index.html">
+        <button>Вернуться к покупкам</button>
+    </a>
 
     <script>
-        // Загружаем корзину из LocalStorage
-        let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-        const cartItemsContainer = document.getElementById('cart-items');
-        const cartTotalContainer = document.getElementById('cart-total');
-
-        // Функция для отображения корзины
+        // Функция отображения товаров из localStorage
         function displayCart() {
-            cartItemsContainer.innerHTML = ''; // Очищаем блок перед обновлением
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItems = document.getElementById('cart-items');
+            const totalPrice = document.getElementById('total-price');
+            cartItems.innerHTML = ''; // Очищаем таблицу
             let total = 0;
 
-            if (cart.length === 0) {
-                cartItemsContainer.innerHTML = '<p class="empty">Корзина пуста</p>';
-                cartTotalContainer.textContent = '';
-                return;
-            }
-
+            // Добавляем товары в таблицу
             cart.forEach((item, index) => {
-                const li = document.createElement('li');
-                li.innerHTML = `
-                    ${item.name} - ${item.price}р
-                    <button onclick="removeFromCart(${index})">Удалить</button>
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${item.name}</td>
+                    <td>${item.price}₽</td>
+                    <td><button onclick="removeItem(${index})">Удалить</button></td>
                 `;
-                cartItemsContainer.appendChild(li);
+                cartItems.appendChild(row);
                 total += item.price;
             });
 
-            // Отображаем итоговую сумму
-            cartTotalContainer.textContent = `Итого: ${total}р`;
+            totalPrice.textContent = total.toFixed(2); // Обновляем общую сумму
         }
 
-        // Функция для удаления товара из корзины
-        function removeFromCart(index) {
-            cart.splice(index, 1); // Удаляем элемент из массива
-            localStorage.setItem('cart', JSON.stringify(cart)); // Обновляем LocalStorage
-            displayCart(); // Перерисовываем корзину
+        // Функция удаления одного товара из корзины
+        function removeItem(index) {
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            cart.splice(index, 1); // Удаляем товар по индексу
+            localStorage.setItem('cart', JSON.stringify(cart)); // Сохраняем изменения
+            displayCart(); // Обновляем таблицу
         }
 
-        // Функция для очистки корзины
+        // Функция очистки корзины
         function clearCart() {
-            cart = [];
-            localStorage.removeItem('cart'); // Удаляем корзину из LocalStorage
-            displayCart();
-        }
-
-        // Функция для возвращения на главную страницу
-        function goBack() {
-            window.location.href = 'index.html';
+            localStorage.removeItem('cart'); // Удаляем корзину из localStorage
+            displayCart(); // Обновляем таблицу
         }
 
         // Отображаем корзину при загрузке страницы
-        displayCart();
+        window.onload = displayCart;
     </script>
 </body>
 </html>

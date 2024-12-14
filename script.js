@@ -37,6 +37,11 @@ newsBtn.addEventListener('click', () => {
  <img src="images/images.jpg" alt="Пример изображения" width="300" height="200">
         <p>Cкоро открытие нашего 2го магазина ураа!</p>
          </div>
+
+         <div class="ваканция">
+ <img src="images/аканция.jpg" alt="Пример изображения" width="300" height="200">
+        <p>Открыта ваканция продавца зп от-30000р!</p>
+         </div>
 </div>
         <button class="backBtn" onclick="showMap()">На главную</button>
     `);
@@ -200,6 +205,11 @@ vegetablesBtn.addEventListener('click', () => {
          <button onclick="addToCart('Китайская капуста', 98)">В корзину</button>
     </div>
 </div>
+ <a href="cart.html">
+        <button class="cart-button">
+          <img src="images/21.png" alt="Изображение 2"> <span id="cart-count">0</span>
+        </button>
+    </a>
         <button class="backBtn" onclick="showMap()">На главную</button>
     `);
 });
@@ -360,6 +370,11 @@ fruitsBtn.addEventListener('click', () => {
         <button onclick="addToCart('Малина', 318)">В корзину</button>
     </div>
     </div>
+      <a href="cart.html">
+        <button class="cart-button">
+         <img src="images/21.png" alt="Изображение 2"> <span id="cart-count">0</span>
+        </button>
+    </a>
         <button class="backBtn" onclick="showMap()">На главную</button>
     `);
 });
@@ -377,18 +392,25 @@ infoBtn.addEventListener('click', () => {
     `);
 });
 
-    // Функция для добавления товара в корзину и сохранения его в LocalStorage
-function addToCart(name, price) {
-    // Проверяем, есть ли уже корзина в LocalStorage
+  // Добавление товаров в корзину
+  function addToCart(name, price) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    
-    // Добавляем товар
     cart.push({ name, price });
-    
-    // Сохраняем корзину обратно в LocalStorage
     localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartCount();
+    alert(`${name} добавлен в корзину!`);
+}
 
-    // Переходим на страницу корзины
+// Обновление счетчика корзины
+function updateCartCount() {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    document.getElementById('cart-count').textContent = cart.length;
+}
+
+// Переход на страницу корзины
+function goToCart() {
     window.location.href = 'cart.html';
 }
 
+// Обновляем счетчик при загрузке страницы
+window.onload = updateCartCount;
