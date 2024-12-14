@@ -174,10 +174,22 @@ body {
     margin: 0;
     padding: 0;
 }
+
 h1 {
     text-align: center;
     margin-top: 20px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;     
+    
 }
+
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .cart-container {
     max-width: 600px;
     margin: 0 auto;

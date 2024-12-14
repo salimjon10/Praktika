@@ -398,7 +398,7 @@ infoBtn.addEventListener('click', () => {
     cart.push({ name, price });
     localStorage.setItem('cart', JSON.stringify(cart));
     updateCartCount();
-    alert(`${name} добавлен в корзину!`);
+   
 }
 
 // Обновление счетчика корзины
