@@ -53,28 +53,28 @@ vegetablesBtn.addEventListener('click', () => {
     showContent(`
        <div class="container1">
     <div class="image-block">
-        <img src="images/kartoshka.jpg" alt="Изображение 1">
+        <img src="images/kar.jpg" alt="Изображение 1">
         <p>Картошка </p>
         <p>цена за 1кг </p>
          <p>38р</p>  
          <button onclick="addToCart('Картошка', 38)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/kapusta.jpg" alt="Изображение 2">
+        <img src="images/kap.jpg" alt="Изображение 2">
        <p>Капуста</p>
         <p>цена за 1кг </p>
          <p>120р</p>
           <button onclick="addToCart('Капуста', 120)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/ogures.jpg" alt="Изображение 2">
+        <img src="images/ogu.jpg" alt="Изображение 2">
        <p>Огурец </p>
         <p>цена за 1кг </p>
          <p>90р</p>
          <button onclick="addToCart('Огурец', 90)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/peres.jpg" alt="Изображение 2">
+        <img src="images/perkr.jpg" alt="Изображение 2">
           <p>Перец </p>
         <p>цена за 1кг </p>
          <p>123р</p>
@@ -84,28 +84,28 @@ vegetablesBtn.addEventListener('click', () => {
  
 <div class="container3">
     <div class="image-block">
-        <img src="images/chesna.jpg" alt="Изображение 1">
+        <img src="images/ches.jpg" alt="Изображение 1">
          <p>Чеснок </p>
         <p>цена за 1кг </p>
          <p>150р</p>
          <button onclick="addToCart('Чеснок', 150)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/luk.jpg" alt="Изображение 2">
+        <img src="images/lukk.jpg" alt="Изображение 2">
           <p>Лук </p>
         <p>цена за 1кг </p>
          <p>45р</p>
           <button onclick="addToCart('Лук', 50)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/помидоры.jpg" alt="Изображение 2">
+        <img src="images/pom.jpg" alt="Изображение 2">
         <p>Помидоры </p>
         <p>цена за 1кг </p>
          <p>199р</p>
          <button onclick="addToCart('Помидоры', 199)">В корзину</button>
     </div>
      <div class="image-block">
-        <img src="images/морковь.jpg" alt="Изображение 2">
+        <img src="images/mor.jpg" alt="Изображение 2">
          <p>Морковь мытая </p>
         <p>цена за 1кг </p>
          <p>78р</p>
@@ -115,28 +115,28 @@ vegetablesBtn.addEventListener('click', () => {
 
 <div class="container3">
     <div class="image-block">
-        <img src="images/zelperes.jpg" alt="Изображение 1">
+        <img src="images/perzel.jpg" alt="Изображение 1">
         <p>Перец зеленый </p>
         <p>цена за 1кг </p>
          <p>130р</p>
         <button onclick="addToCart('Перец зеленый', 130)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/krluk.jpg" alt="Изображение 2">
+        <img src="images/lk.jpg" alt="Изображение 2">
          <p>Лук красный </p>
         <p>цена за 1кг </p>
          <p>80р</p>
          <button onclick="addToCart('Лук красный', 80)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/tkva.jpg" alt="Изображение 2">
+        <img src="images/tk.jpg" alt="Изображение 2">
         <p>Тыква </p>
         <p>цена за 1кг </p>
          <p>138р</p>
          <button onclick="addToCart('Тыква', 138)">В корзину</button>
     </div>
      <div class="image-block">
-        <img src="images/baklazhan.jpg" alt="Изображение 2">
+        <img src="images/bakl.jpg" alt="Изображение 2">
           <p>Баклажаны </p>
         <p>цена за 1кг </p>
          <p>100р</p>
@@ -146,28 +146,28 @@ vegetablesBtn.addEventListener('click', () => {
 
 <div class="container3">
     <div class="image-block">
-        <img src="images/rediska.jpg" alt="Изображение 1">
+        <img src="images/red.jpg" alt="Изображение 1">
         <p>Редиска </p>
         <p>цена за 1кг </p>
          <p>38р</p>
         <button onclick="addToCart('Редиска', 38)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/kabachki.jpg" alt="Изображение 2">
+        <img src="images/kab.jpg" alt="Изображение 2">
          <p>Кабачки </p>
         <p>цена за 1кг </p>
          <p>108р</p>
         <button onclick="addToCart('Кабачки', 108)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/osperes.jpg" alt="Изображение 2">
+        <img src="images/osp.jpg" alt="Изображение 2">
          <p>Острый перец </p>
         <p>цена за 1кг </p>
          <p>148р</p>
          <button onclick="addToCart('Острый перец', 148)">В корзину</button>
     </div>
      <div class="image-block">
-        <img src="images/pomcheri.jpg" alt="Изображение 2">
+        <img src="images/cheri.jpg" alt="Изображение 2">
          <p>Помидоры черри</p>
         <p>цена за 1кг </p>
          <p>250р</p>
@@ -177,28 +177,28 @@ vegetablesBtn.addEventListener('click', () => {
 
 <div class="container3">
     <div class="image-block">
-        <img src="images/kukuruza.jpg" alt="Изображение 1">
+        <img src="images/kuk.jpg" alt="Изображение 1">
         <p>Кукуруза </p>
         <p>цена за 1кг </p>
          <p>170р</p>
          <button onclick="addToCart('Кукуруза', 170)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/nemarkovka.jpg" alt="Изображение 2">
+        <img src="images/mnem.jpg" alt="Изображение 2">
          <p>Морковь немытая </p>
         <p>цена за 1кг </p>
          <p>38р</p>
          <button onclick="addToCart('Морковь немытая', 38)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/svekla.jpg" alt="Изображение 2">
+        <img src="images/sve.jpg" alt="Изображение 2">
          <p>Свекла</p>
         <p>цена за 1кг </p>
          <p>88р</p>
          <button onclick="addToCart('Свекла', 88)">В корзину</button>
     </div>
      <div class="image-block">
-        <img src="images/kitkapusta.jpg" alt="Изображение 2">
+        <img src="images/kit.jpg" alt="Изображение 2">
          <p>Китайская капуста </p>
         <p>цена за 1кг </p>
          <p>98р</p>
@@ -218,28 +218,28 @@ fruitsBtn.addEventListener('click', () => {
     showContent(`
         <div class="container1">
     <div class="image-block">
-        <img src="images/banan.jpg" alt="Изображение 1">
+        <img src="images/ban.jpg" alt="Изображение 1">
        <p>Бананы </p>
         <p>цена за 1кг </p>
          <p>118р</p>  
         <button onclick="addToCart('Бананы', 118)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/ananas.jpg" alt="Изображение 2">
+        <img src="images/anan.jpg" alt="Изображение 2">
       <p>Ананас </p>
         <p>цена за 1кг </p>
          <p>200р</p>  
          <button onclick="addToCart('Ананас', 200)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/granat.jpg" alt="Изображение 2">
+        <img src="images/gra.jpg" alt="Изображение 2">
       <p>Гранат </p>
         <p>цена за 1кг </p>
          <p>198р</p>  
         <button onclick="addToCart('Гранат', 198)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/arbuz.jpg" alt="Изображение 2">
+        <img src="images/arb.jpg" alt="Изображение 2">
          <p>Арбуз </p>
         <p>цена за 1кг </p>
          <p>58р</p>  
@@ -249,28 +249,28 @@ fruitsBtn.addEventListener('click', () => {
  
 <div class="container2">
     <div class="image-block">
-        <img src="images/klubnika.jpg" alt="Изображение 1">
+        <img src="images/klu.jpg" alt="Изображение 1">
         <p>Клубника </p>
         <p>цена за 1кг </p>
          <p>288р</p>  
          <button onclick="addToCart('Клубника', 288)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/vinograd.jpg" alt="Изображение 2">
+        <img src="images/zelv.jpg" alt="Изображение 2">
         <p>Виноград зеленый </p>
         <p>цена за 1кг </p>
          <p>150р</p>  
         <button onclick="addToCart('Виноград зеленый', 150)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/mango.jpg" alt="Изображение 2">
+        <img src="images/man.jpg" alt="Изображение 2">
         <p>Манго </p>
         <p>цена за 1кг </p>
          <p>308р</p>  
          <button onclick="addToCart('Манго', 308)">В корзину</button>
     </div>
      <div class="image-block">
-        <img src="images/vishnya.jpg" alt="Изображение 2">
+        <img src="images/vi.jpg" alt="Изображение 2">
          <p>Вишня </p>
         <p>цена за 1кг </p>
          <p>160р</p>  
@@ -280,28 +280,28 @@ fruitsBtn.addEventListener('click', () => {
 
 <div class="container3">
     <div class="image-block">
-        <img src="images/yabloki.jpg" alt="Изображение 1">
+        <img src="images/ya.jpg" alt="Изображение 1">
         <p>Яблоко </p>
         <p>цена за 1кг </p>
          <p>80р</p>  
         <button onclick="addToCart('Яблоко', 80)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/grusha.jpg" alt="Изображение 2">
+        <img src="images/gru.jpg" alt="Изображение 2">
          <p>Груша </p>
         <p>цена за 1кг </p>
          <p>138р</p>  
          <button onclick="addToCart('Груша', 138)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/mandarin.jpg" alt="Изображение 2">
+        <img src="images/mand.jpg" alt="Изображение 2">
        <p>Мандарин </p>
         <p>цена за 1кг </p>
          <p>180р</p>  
         <button onclick="addToCart('Мандарин', 180)">В корзину</button>
     </div>
      <div class="image-block">
-        <img src="images/persik.jpg" alt="Изображение 2">
+        <img src="images/per.jpg" alt="Изображение 2">
          <p>Персик</p>
         <p>цена за 1кг </p>
          <p>188р</p>  
@@ -311,28 +311,28 @@ fruitsBtn.addEventListener('click', () => {
 
  <div class="container1">
     <div class="image-block">
-        <img src="images/dnya.jpg" alt="Изображение 1">
+        <img src="images/dn.jpg" alt="Изображение 1">
        <p>Дыня</p>
         <p>цена за 1кг </p>
          <p>128р</p>  
          <button onclick="addToCart('Дыня', 128)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/kivi.jpg" alt="Изображение 2">
+        <img src="images/kiv.jpg" alt="Изображение 2">
       <p>Киви </p>
         <p>цена за 1кг </p>
          <p>154р</p>  
          <button onclick="addToCart('Киви', 154)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/sliva.jpg" alt="Изображение 2">
+        <img src="images/sl.jpg" alt="Изображение 2">
      <p>Слива</p>
         <p>цена за 1кг </p>
          <p>148р</p>  
          <button onclick="addToCart('Слива', 148)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/laym.jpg" alt="Изображение 2">
+        <img src="images/l.jpg" alt="Изображение 2">
         <p>Лайм</p>
         <p>цена за 1кг </p>
          <p>230р</p>  
@@ -342,28 +342,28 @@ fruitsBtn.addEventListener('click', () => {
 
 <div class="container2">
     <div class="image-block">
-        <img src="images/zelyabloko.jpg" alt="Изображение 1">
+        <img src="images/zelya.jpg" alt="Изображение 1">
         <p>Яблоко зеленое </p>
         <p>цена за 1кг </p>
          <p>85р</p>  
         <button onclick="addToCart('Яблоко зеленое', 85)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/krvinograd.jpg" alt="Изображение 2">
+        <img src="images/krv.jpg" alt="Изображение 2">
        <p>Красный виноград </p>
         <p>цена за 1кг </p>
          <p>138р</p>  
        <button onclick="addToCart('Красный виноград', 138)">В корзину</button>
     </div>
     <div class="image-block">
-        <img src="images/limon.jpg" alt="Изображение 2">
+        <img src="images/li.jpg" alt="Изображение 2">
         <p>Лимон </p>
         <p>цена за 1кг </p>
          <p>155р</p>  
        <button onclick="addToCart('Лимон', 155)">В корзину</button>
     </div>
      <div class="image-block">
-        <img src="images/malina.jpg" alt="Изображение 2">
+        <img src="images/mal.jpg" alt="Изображение 2">
          <p>Малина</p>
         <p>цена за 1кг </p>
          <p>318р</p>  

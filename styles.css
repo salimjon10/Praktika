@@ -112,6 +112,7 @@ footer p {
     display: flex; /* Используем flexbox для горизонтального расположения */
     justify-content: center; /* Центрируем блоки */
     gap: 20px; /* Расстояние между изображениями */
+    margin-bottom: 15px;
 }
 .image-block {
     border: 1px solid #ccc; /* Граница вокруг блока с изображением */
@@ -129,6 +130,7 @@ img {
     display: flex; /* Используем flexbox для горизонтального расположения */
     justify-content: center; /* Центрируем блоки */
     gap: 20px; /* Расстояние между изображениями */
+    margin-bottom: 15px;
 }
 .image-block {
     border: 1px solid #ccc; /* Граница вокруг блока с изображением */
@@ -146,6 +148,7 @@ img {
     display: flex; /* Используем flexbox для горизонтального расположения */
     justify-content: center; /* Центрируем блоки */
     gap: 20px; /* Расстояние между изображениями */
+    margin-bottom: 15px;
 }
 .image-block {
     border: 1px solid #ccc; /* Граница вокруг блока с изображением */
